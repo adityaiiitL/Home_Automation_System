@@ -1,6 +1,6 @@
 // The Login class
 // asks user to log in to their account by firstly asking their access right (OWNER/CHILD/GUEST)
-// then asks the default system password that can be provided to user as OTP
+// then asks the default system password (owner12, child34, guest56)
 // enables the given mode by user
 // has the manager object (highly important class)
 // after enabling the given mode, directs user to the managing window
