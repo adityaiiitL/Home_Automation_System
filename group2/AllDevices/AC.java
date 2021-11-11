@@ -76,17 +76,17 @@ public class AC extends Device {
         int nextChoice;
         nextChoice = sc.nextInt();
         if (nextChoice == 1) {
-            this.display();
+            display();
         } else if (nextChoice == 2) {
-            this.increaseTemp();
+            increaseTemp();
         } else if (nextChoice == 3) {
-            this.decreaseTemp();
+            decreaseTemp();
         } else if (nextChoice == 4) {
-            this.changeSwing();
+            changeSwing();
         } else if (nextChoice == 5) {
-            this.incrementSpeed();
+            incrementSpeed();
         } else if (nextChoice == 6) {
-            this.decrementSpeed();
+            decrementSpeed();
         } else {
             System.out.println("Thank You !! Leaving on state function AC ! ");
             System.out.println();
